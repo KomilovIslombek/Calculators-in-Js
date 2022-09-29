@@ -5,14 +5,21 @@
     font-family: Arial;
 }
 body{
-    
-    background: linear-gradient(50deg, #5013c3, transparent);
-
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(50deg, #5013c3, black);
+    color: white;
 }
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.h1{
+    text-align: center;
+    text-shadow:  -1px 4px 4px #000;
 }
 .calc_iphone{
     color: white;
@@ -20,18 +27,19 @@ body{
     height: 500px;
     background-color: #000;
     padding: 18px;
-    
     border-radius: 20px;
     margin: 20px 0;
-    box-shadow:  4px 4px 4px #a6a6a6;
+    box-shadow:  -1px 4px 4px black;
 }
 .calc_title{
+    width: 100%;
     height: 110px;
     display: grid;
     justify-items: end;
     align-items: flex-end;
     margin-bottom: 20px;
     padding: 10px;
+    white-space: normal;
 }
 .calc_title p{
     font-size: 4rem;
